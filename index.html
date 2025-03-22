@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 2 Asignment</title>
+  </head>
+  <body>
+    <h1>Web Development Week Two Asignment</h1>
+    <audio controls>
+      <source
+        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        type="audio/mpeg"
+      />
+      Your browser does not support the audio element.
+    </audio>
+    <h2>Instructions</h2>
+    <ol type="I">
+      <li>Create an index.html file.</li>
+      <li>Add an ordered list with roman numerals</li>
+      <li>Add an external image from pexels.com</li>
+      <li>Add a table of 5 contacts with; name, address, mobile and emails</li>
+      <li>Add a registration form</li>
+    </ol>
+    <h2>Dont Forget To Write Your Codes</h2>
+    <img
+      src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg"
+      alt="Beautiful nature landscape"
+      width="500"
+    />
+
+    <h2>Take A Break And Enjoy This Video</h2>
+    <video controls width="600">
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video element.
+    </video>
+
+    <h2>My Contact List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>123 Main St, kaduna, Nigeria</td>
+          <td>+123 456 7890</td>
+          <td>john.doe@example.com</td>
+        </tr>
+        <tr>
+          <td>Sarah Kanti</td>
+          <td>199 Main St, kaduna, Nigeria</td>
+          <td>+987 654 3210</td>
+          <td>jane.smith@example.com</td>
+        </tr>
+        <tr>
+          <td>Alice Johnson</td>
+          <td>789 Main St, kaduna, Nigeria</td>
+          <td>+111 222 3333</td>
+          <td>alice.johnson@example.com</td>
+        </tr>
+        <tr>
+          <td>Bob Brown</td>
+          <td>16 St, kaduna, Nigeria</td>
+          <td>+444 555 6666</td>
+          <td>bob.brown@example.com</td>
+        </tr>
+        <tr>
+          <td>Charlie Davis</td>
+          <td>654 Maple St</td>
+          <td>+777 888 9999</td>
+          <td>charlie.davis@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+
+    <form>
+      <div>
+        <label for="name">Full Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          minlength="8"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required />
+      </div>
+
+      <div>
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="" disabled selected>Select your country</option>
+          <option value="kenya">Kenya</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="uk">United Kingdom</option>
+          <option value="australia">Australia</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+      </div>
+
+      <div>
+        <label>Interests:</label>
+        <input type="checkbox" id="coding" name="interests" value="coding" />
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="reading" name="interests" value="reading" />
+        <label for="reading">Reading</label>
+        <input
+          type="checkbox"
+          id="traveling"
+          name="interests"
+          value="traveling"
+        />
+        <label for="traveling">Traveling</label>
+      </div>
+
+      <div>
+        <button type="submit">Register</button>
+      </div>
+    </form>
+  </body>
+  <footer>
+    <br>
+    Thank You All
+  </footer>
+</html>
